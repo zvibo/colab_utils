@@ -122,4 +122,6 @@ Host github.com
 
     print("SSH key setup complete. You can test it with `!ssh -T git@github.com`.")
     return True
-setup_ssh_key_for_github()
+
+if __name__ == '__main__':
+    secret_to_ssh_key()
