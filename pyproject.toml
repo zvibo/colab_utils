@@ -1,12 +1,12 @@
 [project]
 name = "colab-utils"
 version = "0.1.0"
-description = "Add your description here"
+description = "Convenience tools to make colab a better editor"
 readme = "README.md"
 authors = [
     { name = "Zvi Boshernitzan", email = "zvi.boshernitzan@gmail.com" }
 ]
-requires-python = ">=3.13.1"
+requires-python = ">=3.10.1"
 dependencies = []
 
 [build-system]
